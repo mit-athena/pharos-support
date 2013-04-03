@@ -1,9 +1,9 @@
 Source: debathena-pharos-support
 Section: debathena/base
 Priority: extra
-Standards-Version: 3.9.1
+Standards-Version: 3.9.3
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@
+Build-Depends: cdbs, debhelper, dh-buildinfo
 
 Package: debathena-pharos-support
 Architecture: all
