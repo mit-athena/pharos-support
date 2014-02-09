@@ -1,3 +1,9 @@
+debathena-pharos-support (1.1.1-0debathena1) unstable; urgency=low
+
+  * Release 1.1.1
+
+ -- Alexander Chernyakhovsky <achernya@mit.edu>  Sun, 09 Feb 2014 06:46:08 -0500
+
 debathena-pharos-support (1.1-1) unstable; urgency=low
 
   [ Jonathan Reed ]
