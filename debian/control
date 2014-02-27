@@ -3,12 +3,12 @@ Section: debathena/base
 Priority: extra
 Standards-Version: 3.9.3
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: cdbs, debhelper, dh-buildinfo
+Build-Depends: debhelper (>= 7.0.50~), dh-buildinfo
 
 Package: debathena-pharos-support
 Architecture: all
 Depends: cups | cupsys,
- hpijs,
+ hpijs-ppds,
  ${misc:Depends}
 Description: Pharos Support for Debathena
  This package adds a new CUPS backend for Pharos queues to allow users

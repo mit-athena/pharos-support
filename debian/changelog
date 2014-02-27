@@ -1,3 +1,13 @@
+debathena-pharos-support (1.1.1-0debathena2) unstable; urgency=low
+
+  * Change dependency from hpijs to hpijs-ppds, since we really only care
+    about the PPDs.  This makes the package usable on saucy+ (Trac: #1416)
+  * Switch to dh7 and drop CDBS
+  * Add a Lintian override to acknowledge that we do want a non-stanard
+    permission on the backend
+
+ -- Jonathan Reed <jdreed@mit.edu>  Thu, 27 Feb 2014 10:57:23 -0500
+
 debathena-pharos-support (1.1.1-0debathena1) unstable; urgency=low
 
   * Release 1.1.1

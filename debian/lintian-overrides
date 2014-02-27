@@ -1,0 +1,1 @@
+debathena-pharos-support: non-standard-executable-perm usr/lib/cups/backend/pharos 0744 != 0755
